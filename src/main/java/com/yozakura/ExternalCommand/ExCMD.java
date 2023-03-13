@@ -16,7 +16,7 @@ public class ExCMD extends CommandBase {
 
     @Override
     public String getUsage(ICommandSender sender) {
-        return "excmd";
+        return "Open Excmd UI";
     }
 
     @Override
