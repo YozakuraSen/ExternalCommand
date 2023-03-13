@@ -21,6 +21,7 @@ public class ExCMD extends CommandBase {
     @Override
     public void execute(MinecraftServer server, ICommandSender sender, String[] args) throws CommandException {
         try {
+
             ExUI.main(args, server);
             logger.info("ExUI was opened");
         } catch (Exception exception) {
