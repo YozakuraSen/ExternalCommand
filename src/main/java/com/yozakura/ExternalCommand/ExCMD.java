@@ -22,7 +22,7 @@ public class ExCMD extends CommandBase {
     public void execute(MinecraftServer server, ICommandSender sender, String[] args) throws CommandException {
         try {
 
-            ExUI.main(args, server);
+            ExUI.main(server);
             logger.info("ExUI was opened");
         } catch (Exception exception) {
             logger.error("ExUI was error");

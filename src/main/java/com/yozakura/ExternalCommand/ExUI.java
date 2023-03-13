@@ -10,7 +10,7 @@ public class ExUI extends JFrame{
 
 
 
-    public static void main(String[] args,MinecraftServer server) {
+    public static void main(MinecraftServer server) {
         JFrame jFrame = new JFrame("External Command");
 
         JPanel jPanel = new JPanel();
